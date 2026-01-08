@@ -125,36 +125,3 @@ Install cepat:
 pip install pandas numpy matplotlib seaborn scikit-learn yellowbrick
 
 
-Cara Menjalankan
-
-Catatan: Notebook menggunakan path Colab /content/.... Jika dijalankan lokal, ubah path menjadi relatif, misalnya ./bank_transactions_data_init.csv.
-
-1) Jalankan Clustering
-
-Buka dan run semua cell pada:
-
-[Clustering]_Submission_Akhir_BMLP_Muchamad_Aldi_Firmansyah_(Updated).ipynb
-
-Output:
-
-bank_transactions_data_clustered.csv
-
-2) Jalankan Klasifikasi
-
-Buka dan run semua cell pada:
-
-[Klasifikasi]_Submission_Akhir_BMLP_Muchamad_Aldi_Firmansyah.ipynb
-
-Input:
-
-bank_transactions_data_clustered.csv
-
-Catatan Reproducibility
-
-KMeans menggunakan random_state=0.
-
-Label cluster (0/1/2) bisa saja tertukar urutannya jika konfigurasi/seed berubah, meskipun struktur cluster sama.
-
-Author
-
-Muchamad Aldi Firmansyah
